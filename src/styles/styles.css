@@ -1,3 +1,6 @@
-.div{
-  background: red;
+.button {
+  margin: 10px;
+  background: lightcoral;
+  cursor: pointer;
+  padding: 10px;
 }
