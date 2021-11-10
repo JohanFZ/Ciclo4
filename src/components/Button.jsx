@@ -1,9 +1,9 @@
 import React from 'react'
 
-const button = ({color = "coral"}) => {
+const button = ({color = "coral", texto}) => {
   return (
     <div>
-      <button style={{backgroundColor : color}} className="button">Este es mi boton personalizado</button>
+      <button style={{backgroundColor : color}} className="button">{texto}</button>
     </div>
   )
 }
