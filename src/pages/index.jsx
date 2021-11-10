@@ -41,6 +41,8 @@ const Index = () => {
         />
         <input onChange={(e) => setValor2(parseInt(e.target.value))} value={valor2} type="number" placeholder="Valor 2" />
       </div>
+      <Button color="red" />
+      <Button color="blue" />
       <Button />
     </div>
   )
