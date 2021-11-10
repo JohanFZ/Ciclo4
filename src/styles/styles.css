@@ -4,3 +4,26 @@
   cursor: pointer;
   padding: 10px;
 }
+
+.fondo-oscuro {
+  background: rgb(83, 83, 83);
+}
+
+.fondo-claro {
+  background: lightgray;
+}
+
+.container {
+  padding: 20px;
+  margin: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+.container .link {
+  display: block;
+}
+
+.form input{
+  margin: 20px;
+}
